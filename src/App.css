@@ -1,11 +1,49 @@
 * {
     text-align: center;
-}
-.group {
-    display: flex;
-    justify-content: flex-start
+    margin: 0;
+
 }
 
-.item {
-    
+header {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    font-size: 30px;
+}
+
+.header-2 {
+    background-color: gray;
+}
+
+.header-3 {
+    background-color: lightgray;
+}
+
+form {
+    font-size: 22px;
+}
+
+input, select {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 20px;
+    margin-bottom: 7px;
+}
+
+.group {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#bookName {
+    background-color: darkkhaki;
+}
+
+#book-item {
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+}
+img {
+    margin: 5px;
 }
